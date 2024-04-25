@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>RIYADH</title> 
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+
+  height: 100vh; width: 100vw;
+   background-color: #F0F8FF; 
+font-family: 'Poppins', sans-serif; 
+}
+ a:link { 
+  color:#000000;
+   } 
+   a:visited { 
+ 	} 
+a:hover {
+  color: #8e0f45 ;
+}
+
+div.Riyadh {
+  border: 1px solid #ccc;
+}
+
+div.Riyadh:hover {
+  border: 1px solid #777; 
+}
+
+div.Riyadh img {
+  width: 100%;
+  height: auto;
+}
+
+div.des {
+  padding: 15px;
+  text-align: center;  
+}
+.resp {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .resp {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .resp {
+    width: 100%;
+  }}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 {
+  font-size: 20vmin;
+  line-height: 20vmin; 
+}
+
+.gradient-text {
+  color: transparent;
+  background: conic-gradient(
+  #FF9900 12%,
+    #000066 12%, #ff7761 33%,
+    #E7FBBE 33%, #f9a11b 55%,
+    #CC9966 55%, #fdc23e 70%,
+    #ffcc99 70%, #274555 87%,
+    #FF9933 87%);
+  background-size: 40%;
+  background-clip: text;  
+}
+.dark-mode {
+  background-color: black; 
+  
+}
+a{
+      text-decoration:none;
+	text-shadow:2px 2px 4px #CC9966;
+	color:#fdc23e;
+}
+header{
+            position:fixed;
+            width:95%;
+            z-index:100;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin:0px;
+            }
+header ul{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            list-style:none;
+            Margin:15px;
+			}
+header ul li{
+            margin-right:60px;
+}
+header ul li a{
+            padding:6px 15px;
+            border-radius:20px;
+}
+header ul li a:hover, .active{
+background-color:Orange;
+color:#F0F8FF;
+}
+
+#b1{
+    font-size:18px;
+	border-radius:50px 50px 50px 50px;
+	width:40px;
+	outline:none;
+	background-color:black;
+	border:1px solid silver;
+	transition:1s;
+}
+ 
+#b1:hover{
+            background:orange;
+            box-shadow:1px 1px 10px gray;
+}
+</style>                      
+</head>
+<body>
+<header>
+      <ul>
+                <li><a href="home.html">Home</a></li>
+                        <li><a href="Riyadh.html" class="active" >Riyadh</a></li>
+                        <li><a href="AlUla.html">AL-ULA</a></li>
+                        <li><a href="damam.html">Dammam</a></li>
+                        <li><a href="Tabuk.html">Tabuk</a></li>
+                        <li>
+                        <script>
+                        function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+ 
+</script>
+                <button id='b1' title="dark or light mode" onclick="myFunction()">🌓</button>
+                </li>
+                </ul>
+</header>
+<br>
+<br>
+<h1 class="gradient-text"> <div class="des">RIYADH</div></h1>
+<div class="resp">
+  <div class="Riyadh">
+    
+      <img src="RB.jpg" alt="The Boulevard Riyadh" >
+	   
+    <a target="_blank" href="Boulevard.html">
+    <div class="des">The Boulevard Riyadh</div></a>
+  </div>
+</div>
+
+<div class="resp">
+  <div class="Riyadh">
+   
+      <img src="sstage.jpg" alt="The Stage" width="600" height="400">
+
+	<a target="_blank" href="stages.html">
+	<div class="des"> The Stage </div></a>
+  </div>
+</div>
+
+<div class="resp">
+  <div class="Riyadh">
+      <img src="golf.jpg" alt="Riyadh Golf Club" width="600" height="400">
+  
+	<a target="_blank" href="golf.html">
+	 <div class="des"> Riyadh Golf Club </div></a>
+  </div>
+</div>
+
+<div class="resp">
+  <div class="Riyadh">
+
+      <img src="ritz.jpg" alt="The Ritz Carlton Hotel" width="600" height="400">
+	<a target="_blank" href="ritzC.html"  > 
+	<div class="des">The Ritz Carlton Hotel</div></a>
+ </div>
+</div>
+</body>
+</html>

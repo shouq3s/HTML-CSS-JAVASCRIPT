@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tabuk</title>
+<style>
+*{
+margin:0;
+padding:0;
+ box-sizing: border-box;
+}
+body{
+background-color:#f0f8ff;
+height:100vh; width: 100vw;
+font-family: 'Poppins' ,sans-serif;
+}
+a:link {
+ color:#000000;
+  text-decoration: none;
+  }
+ a:visited { 
+ 
+}
+a:hover {
+  color: #FF8C00;
+}
+div.Tabuk{
+  border: 1px solid #ccc;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+
+div.Tabuk img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+ 
+
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1{
+font-size: 20vmin;
+line-height :20vmin ;
+}
+.gradient-text {
+  color: transparent;
+  background: conic-gradient(
+  #FF9900 12%,
+    #000066 12%, #ff7761 33%,
+    #E7FBBE 33%, #f9a11b 55%,
+    #CC9966 55%, #fdc23e 70%,
+    #ffcc99 70%, #274555 87%,
+    #FF9933 87%);
+  background-size: 40%;
+  background-clip: text;  
+ 
+
+}
+
+
+.dark-mode {
+  background-color:black;
+ 
+  
+}
+a{text-decoration:none;
+	text-shadow:2px 2px 4px #CC9966;
+	color:#fdc23e;
+}
+header{
+            position:fixed;
+            width:95%;
+            z-index:100;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin:0px;
+            }
+header ul{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            list-style:none;
+             Margin:15px;
+}
+header ul li{
+            margin-right:60px;
+}
+header ul li a{
+            padding:6px 15px;
+            border-radius:20px;
+}
+header ul li a:hover, .active{
+background-color:Orange;
+color:#F0F8FF;
+}
+#b1{
+            font-size:18px;
+            border-radius:50px 50px 50px 50px;
+            width:40px;
+            outline:none;
+            background-color:black;
+            border:1px solid silver;
+            transition:1s;
+}
+ 
+#b1:hover{
+            background:orange;
+            box-shadow:1px 1px 10px gray;
+}
+                   
+</style>
+</head>
+<body>
+<header>
+      <ul>
+                <li><a href="home.html" >Home</a></li>
+                        <li><a href="Riyadh.html">Riyadh</a></li>
+                        <li><a href="AlUla.html">Al-Ula</a></li>
+                        <li><a href="damam.html">Dammam</a></li>
+                        <li><a href="Tabuk.html"class="active">Tabuk</a></li>
+                        <li>
+                        <script>
+                        function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+ 
+</script>
+                        <button id='b1' title="dark or light mode" onclick="myFunction()">🌓</button>
+                        </li>
+                        </ul>
+</header>
+<br>
+<br>
+<h1 class="gradient-text "> <div class="desc "> Tabuk </div> </h1>
+
+
+<div class="responsive">
+  <div class="Tabuk">
+  
+      <img src="06ccc787.jpg" alt="Tabuk" width="600" height="400">
+  
+
+    <div class="desc"> <a href="tabuk1.html" target="_blank"> Tabuk </a> </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="Tabuk">
+    
+<img src="e5310124.jpg" alt="Aldis" width="600" height="400">
+    
+    <div class="desc"><a href="Wadi Al Disah.html" target="_blank">Wadi Al Disah </a></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="Tabuk">
+  
+      <img src="940CA38.jpg" alt="DUBĀ" width="600" height="400">
+  
+    <div class="desc"><a href="DUBA.html" target="_blank">DUBĀ</a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="Tabuk">
+
+      <img src="Haql.jpg" alt="Haql" width="600" height="400">
+
+    <div class="desc"><a href="Haql.html" target="_blank">Haql</a></div>
+  </div>
+</div> 
+
+
+
+
+</body>
+</html>

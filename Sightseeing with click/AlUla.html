@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head><title>AlUla</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+
+  height: 100vh;
+  width: 100vw;
+font-family: 'Poppins', sans-serif;
+background-color: #F0F8FF;
+}
+a:link {
+ color:#000000;
+  text-decoration: none;
+  }
+ a:visited {
+ 	
+}
+a:hover {
+  color: #f78e3d;
+}
+div.AlUla{
+  border: 1px solid #ccc;
+}
+
+
+div.AlUla img {
+  width: 100%;
+  height: auto;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 {
+
+  font-size: 20vmin;
+  line-height: 20vmin; 
+}
+
+.gradient-text {
+  color: transparent;
+  background: conic-gradient(
+  #FF9900 12%,
+    #000066 12%, #ff7761 33%,
+    #E7FBBE 33%, #f9a11b 55%,
+    #CC9966 55%, #fdc23e 70%,
+    #ffcc99 70%, #274555 87%,
+    #FF9933 87%);
+  background-size: 40%;
+  background-clip: text;  
+}
+
+.dark-mode {
+  background-color: black;  
+}
+a{
+text-decoration:none;
+	text-shadow:2px 2px 4px #CC9966;
+	color:#fdc23e;
+}
+header{
+            position:fixed;
+            width:95%;
+            z-index:100;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin:0px;
+            }
+header ul{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            list-style:none;
+            margin:15px;
+	    
+}
+header ul li{
+            margin-right:60px;
+}
+header ul li a{
+            padding:6px 15px;
+            border-radius:20px;
+}
+header ul li a:hover, .active{
+background-color:Orange;
+color:#F0F8FF;
+}
+#b1{
+           font-size:18px; 
+            border-radius:50px 50px 50px 50px;
+            width:40px;
+            outline:none;
+            background-color:black;
+            border:1px solid silver;
+            transition:1s;
+}
+ 
+#b1:hover{
+            background:orange;
+            box-shadow:1px 1px 10px gray;
+			
+}
+                     
+</style>
+</head>
+<body>
+<header>
+      <ul>
+                <li><a href="home.html">Home</a></li>
+                        <li><a href="Riyadh.html"  >Riyadh</a></li>
+                        <li><a href="AlUla.html" class="active">AL-ULA</a></li>
+                        <li><a href="damam.html">Dammam</a></li>
+                        <li><a href="Tabuk.html">Tabuk</a></li>
+                        <li>
+                        <script>
+                        function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+ 
+</script>
+                        <button id='b1' title="dark or light mode" onclick="myFunction()">🌓</button>
+                        </li>
+                        </ul>
+</header>
+<br>
+<h1 class="gradient-text "> <div class="desc">AlUla </h1>
+
+<div class="responsive">
+  <div class="AlUla">
+  
+      <img src="gramel1.jpg" alt="Gramel" width="600" height="400">
+  
+    <div class="desc"> <a href="gramel.html" target="_blank"> Gramel </a> </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="AlUla">
+    
+<img src="oldTown2.jpg" alt="oldTown" width="600" height="400">
+    
+    <div class="desc"><a href="oldTown.html" target="_blank">oldTown </a></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="AlUla">
+  
+      <img src="mda'in.jpg" alt="Mada'in saleh" width="600" height="400">
+  
+    <div class="desc"><a href="Mada'in.html" target="_blank">Mada'in saleh</a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="AlUla">
+
+      <img src="Elephant1.jpg" alt="Elephant Mountain" width="600" height="400">
+
+    <div class="desc"><a href="Elephant.html" target="_blank">Elephant Mountain</a></div>
+  </div>
+</div> 
+
+
+
+
+</body>
+</html>

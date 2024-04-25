@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Sightseeing with click</title>
+<meta name="Sightseeing with click" content="Zahra,Ahad,Shouq,Shahad,Albandary">
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #F0F8FF;
+ font-family: 'Poppins', sans-serif;
+  
+}
+.dark-mode {
+  background-color: black;
+}
+a{
+	text-decoration:none;
+	text-shadow:2px 2px 4px #CC9966;
+	color:#fdc23e;
+}
+header{
+	position:fixed;
+	width:95%;
+	z-index:100;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin:0px; 
+	}
+header img{
+	width:300px;
+	height:300px;
+	
+}
+header ul{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	list-style:none;
+}
+header ul li{
+	margin-right:30px;
+}
+header ul li a{
+	padding:6px 15px;
+	border-radius:20px;
+}
+header ul li a:hover, .active{
+background-color:Orange;
+color:#F0F8FF;
+}
+#b1{
+	font-size:18px;
+	border-radius:50px 50px 50px 50px;
+	width:40px;
+	outline:none;
+	background-color:black;
+	border:1px solid silver;
+	transition:1s;
+}
+
+#b1:hover{
+	background:orange;
+	box-shadow:1px 1px 10px gray;
+}
+ .main{
+	 position:relative;
+	 height:100vh;
+	 width:100%;
+	 display:flex;
+	 justify-content:center;
+	 align-items:center;
+	 bottom:0px;
+
+
+}
+
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align:center;
+  font-size:10vmin;
+  line-height: 20vmin;
+}
+.gradient-text h1{
+	  display: flex;
+	  align-items: center;
+  justify-content: center;
+}
+
+.gradient-text {
+  color: transparent;
+  background: conic-gradient(
+    #FF9900 12%, 
+    #000066 12%, #ff7761 33%, 
+    #E7FBBE 33%, #f9a11b 55%, 
+    #CC9966 55%, #fdc23e 70%, 
+    #ffcc99 70%, #274555 87%, 
+    #FF9933 87%);
+  background-size: 50%;
+  background-clip: text;  
+  -webkit-background-clip: text;
+
+  animation: expand-rev 0.5s ease forwards;
+
+  cursor: pointer;
+}
+
+.gradient-text:hover {
+  animation: expand 0.5s ease forwards;
+}
+
+@keyframes expand {
+  0% {
+    background-size: 50%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 55%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 325%;
+    background-position: -10em -4em;
+  }
+}
+
+@keyframes expand-rev {
+  0% {
+    background-size: 325%;
+    background-position: -10em -4em;
+  }
+  20% {
+    background-size: 55%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 50%;
+    background-position: 0 0;
+  }
+}
+</style>		
+    
+</head>
+<body>
+<header>
+<h2><a href="#" class="logo"><img src="lool.png"></a></h2>
+      <ul>
+	    <li><a href="home.html" class="active">Home</a></li>
+		<li><a href="Riyadh.html">Riyadh</a></li>
+		<li><a href="AlUla.html">AL-Ula</a></li>
+		<li><a href="damam.html">Dammam</a></li>
+		<li><a href="Tabuk.html">Tabuk</a></li>
+		<li>
+		<script>
+		function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
+</script>
+		<button id='b1' title="dark or light mode" onclick="myFunction()">🌓</button>
+		</li>
+		</ul>
+</header>
+<section class="main">
+<h1 class="gradient-text"><br>Sightseeing<br>
+<small>in the most prominent cities <br>of the Kingdom of Saudi Arabia</small></h1>
+
+</section>
+
+
+
+</body>
+
+</html>
